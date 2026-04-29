@@ -1,11 +1,11 @@
 const CACHE_NAME = 'opic-v8';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/app.js',
-  '/data/categories.json',
-  '/manifest.json'
+  './',
+  './index.html',
+  './css/style.css',
+  './js/app.js',
+  './data/categories.json',
+  './manifest.json'
 ];
 
 self.addEventListener('install', e => {
