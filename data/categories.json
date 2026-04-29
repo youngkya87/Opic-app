@@ -1,0 +1,463 @@
+{
+  "categories": [
+    {
+      "id": "surprise",
+      "name": "돌발질문",
+      "icon": "⚡",
+      "subcategories": [
+        {
+          "id": "sg_weather",
+          "name": "날씨 & 계절",
+          "topic_icon": "🌤️",
+          "groups": [
+            {
+              "group_id": "sg_weather_4", "group_title": "날씨 & 계절", "level": 4,
+              "questions": [
+                { "id": "sg_w4_1", "question": "Tell me about the seasons in your country. Which season do you like the most and why?", "answers": [] },
+                { "id": "sg_w4_2", "question": "What do you usually do during your favorite season? Describe your typical activities in detail.", "answers": [] },
+                { "id": "sg_w4_3", "question": "Tell me about your most recent memorable experience related to the weather. What happened?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_weather_5", "group_title": "날씨 & 계절", "level": 5,
+              "questions": [
+                { "id": "sg_w5_1", "question": "Tell me about a time when the weather caused a big problem for you. What happened and how did you deal with it?", "answers": [] },
+                { "id": "sg_w5_2", "question": "How does weather affect your mood and your daily plans? Give specific examples from your experience.", "answers": [] },
+                { "id": "sg_w5_3", "question": "How have weather patterns or seasons in your area changed compared to when you were young? What effects have you noticed?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_weather_6", "group_title": "날씨 & 계절", "level": 6,
+              "questions": [
+                { "id": "sg_w6_1", "question": "What do you think are the most significant ways climate change is affecting daily life in your country? Give examples.", "answers": [] },
+                { "id": "sg_w6_2", "question": "How do extreme weather events impact society and the economy? Compare how they were handled in the past versus today.", "answers": [] },
+                { "id": "sg_w6_3", "question": "What responsibilities do individuals, businesses, and governments each have in addressing climate issues? What is your opinion?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sg_transport",
+          "name": "교통 & 이동",
+          "topic_icon": "🚇",
+          "groups": [
+            {
+              "group_id": "sg_transport_4", "group_title": "교통 & 이동", "level": 4,
+              "questions": [
+                { "id": "sg_t4_1", "question": "Tell me about public transportation in your country. What types of transport are available and which do you use most?", "answers": [] },
+                { "id": "sg_t4_2", "question": "How do you usually get to work or school? Describe your commute in detail.", "answers": [] },
+                { "id": "sg_t4_3", "question": "Tell me about a recent experience you had while using public transportation. What happened?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_transport_5", "group_title": "교통 & 이동", "level": 5,
+              "questions": [
+                { "id": "sg_t5_1", "question": "Tell me about a time when you had a problem or unexpected experience while commuting. How did you handle it?", "answers": [] },
+                { "id": "sg_t5_2", "question": "How has public transportation improved or changed in your city compared to several years ago?", "answers": [] },
+                { "id": "sg_t5_3", "question": "What are the biggest advantages and disadvantages of public transportation versus driving a personal vehicle?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_transport_6", "group_title": "교통 & 이동", "level": 6,
+              "questions": [
+                { "id": "sg_t6_1", "question": "How has the development of transportation technology changed people's lifestyles and urban planning over the past few decades?", "answers": [] },
+                { "id": "sg_t6_2", "question": "What do you think about the rise of electric vehicles and autonomous cars? How will they reshape society?", "answers": [] },
+                { "id": "sg_t6_3", "question": "Compare transportation infrastructure and culture in Korea with what you know about other countries. What should Korea improve?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sg_food",
+          "name": "음식 & 식습관",
+          "topic_icon": "🍽️",
+          "groups": [
+            {
+              "group_id": "sg_food_4", "group_title": "음식 & 식습관", "level": 4,
+              "questions": [
+                { "id": "sg_f4_1", "question": "What do people in your country typically eat for meals? What is your favorite food and why do you like it?", "answers": [] },
+                { "id": "sg_f4_2", "question": "Where do you usually eat your meals? Do you cook at home or eat out more often? Describe your habits.", "answers": [] },
+                { "id": "sg_f4_3", "question": "Tell me about a recent meal you had that was particularly good. Where did you eat and what did you have?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_food_5", "group_title": "음식 & 식습관", "level": 5,
+              "questions": [
+                { "id": "sg_f5_1", "question": "Tell me about a memorable dining experience you had. What made it special or different from the usual?", "answers": [] },
+                { "id": "sg_f5_2", "question": "How have your eating habits changed over the years? What caused these changes?", "answers": [] },
+                { "id": "sg_f5_3", "question": "How have food trends and eating habits changed in your country compared to the past? What do you think drove these changes?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_food_6", "group_title": "음식 & 식습관", "level": 6,
+              "questions": [
+                { "id": "sg_f6_1", "question": "How has globalization affected food culture in Korea? What are the benefits and drawbacks of this influence?", "answers": [] },
+                { "id": "sg_f6_2", "question": "What do you think about the growing trend of plant-based diets and food sustainability? How is this changing food industries?", "answers": [] },
+                { "id": "sg_f6_3", "question": "Compare traditional Korean dining culture with modern dining trends. What values are being lost or gained?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sg_tech",
+          "name": "기술 & 사회변화",
+          "topic_icon": "💻",
+          "groups": [
+            {
+              "group_id": "sg_tech_4", "group_title": "기술 & 사회변화", "level": 4,
+              "questions": [
+                { "id": "sg_tc4_1", "question": "How has technology changed the way people communicate in your country? What devices or apps do you use most?", "answers": [] },
+                { "id": "sg_tc4_2", "question": "How do you personally use technology in your daily life? Describe your typical day involving technology.", "answers": [] },
+                { "id": "sg_tc4_3", "question": "Tell me about a time when technology made your life much easier or more convenient.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_tech_5", "group_title": "기술 & 사회변화", "level": 5,
+              "questions": [
+                { "id": "sg_tc5_1", "question": "How has online shopping changed buying habits in your country? Compare how people shopped in the past with today.", "answers": [] },
+                { "id": "sg_tc5_2", "question": "Tell me about a time when technology caused a problem or inconvenience for you. How did you resolve it?", "answers": [] },
+                { "id": "sg_tc5_3", "question": "What are the most significant ways social media has changed relationships and communication in your country?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_tech_6", "group_title": "기술 & 사회변화", "level": 6,
+              "questions": [
+                { "id": "sg_tc6_1", "question": "What do you think are the biggest social benefits and risks of artificial intelligence entering everyday life? How should society manage this?", "answers": [] },
+                { "id": "sg_tc6_2", "question": "How has the digital revolution changed the nature of work and employment? What challenges does this create for workers and businesses?", "answers": [] },
+                { "id": "sg_tc6_3", "question": "What responsibilities do technology companies have regarding data privacy and the mental health effects of their platforms?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sg_health",
+          "name": "건강 & 운동",
+          "topic_icon": "💪",
+          "groups": [
+            {
+              "group_id": "sg_health_4", "group_title": "건강 & 운동", "level": 4,
+              "questions": [
+                { "id": "sg_h4_1", "question": "What kinds of exercise or physical activities are popular in your country? How do you personally stay healthy?", "answers": [] },
+                { "id": "sg_h4_2", "question": "How often do you exercise and what do you do? Describe your typical fitness routine.", "answers": [] },
+                { "id": "sg_h4_3", "question": "Tell me about a recent time when you were physically active. What did you do and how did you feel?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_health_5", "group_title": "건강 & 운동", "level": 5,
+              "questions": [
+                { "id": "sg_h5_1", "question": "Tell me about a time when you made a serious effort to improve your health. What did you do and what were the results?", "answers": [] },
+                { "id": "sg_h5_2", "question": "How have your health habits and attitudes toward fitness changed over the years? What caused these changes?", "answers": [] },
+                { "id": "sg_h5_3", "question": "How have people's attitudes toward health and wellness changed in your country? What do you think are the main reasons?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "sg_health_6", "group_title": "건강 & 운동", "level": 6,
+              "questions": [
+                { "id": "sg_h6_1", "question": "How do you think the healthcare system in Korea could be improved? What are its current strengths and weaknesses?", "answers": [] },
+                { "id": "sg_h6_2", "question": "What impact has the aging population had on healthcare and social welfare systems in Korea? How should society respond?", "answers": [] },
+                { "id": "sg_h6_3", "question": "Compare the concept of well-being and work-life balance in Korea with other countries. What changes would benefit Korean society?", "answers": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequent",
+      "name": "주로 나오는 목록",
+      "icon": "📋",
+      "subcategories": [
+        {
+          "id": "self_home",
+          "name": "자기소개 & 집",
+          "groups": [
+            {
+              "group_id": "fh_4", "group_title": "자기소개 & 거주지", "level": 4,
+              "questions": [
+                { "id": "fh4_1", "question": "Tell me about yourself. Where do you live, who do you live with, and what do you do for a living?", "answers": [] },
+                { "id": "fh4_2", "question": "Describe your home. What does it look like and what is your favorite room or space?", "answers": [] },
+                { "id": "fh4_3", "question": "What do you usually do in the evening after work or school? Describe your typical evening routine.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fh_5", "group_title": "자기소개 & 거주지", "level": 5,
+              "questions": [
+                { "id": "fh5_1", "question": "Tell me about your neighborhood. What is it like, and what do you like or dislike about living there?", "answers": [] },
+                { "id": "fh5_2", "question": "Has your home or living situation changed significantly in recent years? Tell me about what changed and why.", "answers": [] },
+                { "id": "fh5_3", "question": "How has your neighborhood changed over the years? What were the most significant changes, and how have they affected you?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fh_6", "group_title": "자기소개 & 거주지", "level": 6,
+              "questions": [
+                { "id": "fh6_1", "question": "What factors do you think are most important when choosing where to live? How do your current living conditions reflect your priorities?", "answers": [] },
+                { "id": "fh6_2", "question": "How has urbanization affected housing and community life in Korea? What are the social consequences of people moving to cities?", "answers": [] },
+                { "id": "fh6_3", "question": "Compare housing culture and home ownership in Korea with that in other countries. What are the key differences and what can Korea learn?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "work",
+          "name": "직장 & 학교",
+          "groups": [
+            {
+              "group_id": "fw_4", "group_title": "직장 & 업무 묘사", "level": 4,
+              "questions": [
+                { "id": "fw4_1", "question": "Tell me about your job or school. What do you do every day and where do you work or study?", "answers": [] },
+                { "id": "fw4_2", "question": "Describe your workplace or school. What does it look like and what is the atmosphere like there?", "answers": [] },
+                { "id": "fw4_3", "question": "What do you like most about your job or school? What makes it enjoyable?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fw_5", "group_title": "직장 & 업무 경험", "level": 5,
+              "questions": [
+                { "id": "fw5_1", "question": "Tell me about a challenging project or situation at work or school. What was the challenge and how did you overcome it?", "answers": [] },
+                { "id": "fw5_2", "question": "Describe an unexpected or memorable experience you had at work or school. What happened and what did you learn?", "answers": [] },
+                { "id": "fw5_3", "question": "How has your job or school environment changed compared to when you first started? What are the biggest differences?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fw_6", "group_title": "직장 & 업무 분석", "level": 6,
+              "questions": [
+                { "id": "fw6_1", "question": "How has the nature of work changed in your industry due to technology? What new skills are now required and how are workers adapting?", "answers": [] },
+                { "id": "fw6_2", "question": "What do you think about the concept of work-life balance in Korean corporate culture? How does it compare to other countries?", "answers": [] },
+                { "id": "fw6_3", "question": "What do you think are the most significant challenges facing workers in Korea today? What changes would improve the work environment?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hobby",
+          "name": "취미 & 여가",
+          "groups": [
+            {
+              "group_id": "fhb_4", "group_title": "취미 소개", "level": 4,
+              "questions": [
+                { "id": "fhb4_1", "question": "What hobbies or leisure activities do you enjoy in your free time? How often do you do them?", "answers": [] },
+                { "id": "fhb4_2", "question": "Describe a typical weekend for you. What do you do to relax and enjoy your time off?", "answers": [] },
+                { "id": "fhb4_3", "question": "Tell me about something fun or interesting you did recently during your free time.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fhb_5", "group_title": "취미 경험", "level": 5,
+              "questions": [
+                { "id": "fhb5_1", "question": "Tell me about a hobby you picked up in recent years. Why did you start it and what have you gained from it?", "answers": [] },
+                { "id": "fhb5_2", "question": "Has your hobby ever led to an unexpected or memorable experience? Tell me what happened.", "answers": [] },
+                { "id": "fhb5_3", "question": "How have your hobbies and interests changed over the years? What do you think has influenced these changes?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "fhb_6", "group_title": "취미 & 여가 분석", "level": 6,
+              "questions": [
+                { "id": "fhb6_1", "question": "How has the way people spend their leisure time changed in Korea over the past generation? What social factors drove this?", "answers": [] },
+                { "id": "fhb6_2", "question": "What do you think is the relationship between hobbies and personal well-being? How do leisure activities affect mental health?", "answers": [] },
+                { "id": "fhb6_3", "question": "How has digital technology — such as streaming services and social media — changed how Koreans spend their free time? Is this mostly positive or negative?", "answers": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_survey",
+      "name": "메인 서베이",
+      "icon": "🎯",
+      "subcategories": [
+        {
+          "id": "music",
+          "name": "음악",
+          "topic_label": "음악듣기 / 공연보기 / 콘서트가기",
+          "topic_icon": "🎵",
+          "groups": [
+            {
+              "group_id": "mu_4", "group_title": "음악 취향 & 콘서트", "level": 4,
+              "questions": [
+                { "id": "mu4_1", "question": "What kind of music do you enjoy? Tell me about your favorite genre or artist and why you like them.", "answers": [] },
+                { "id": "mu4_2", "question": "Where and when do you usually listen to music? Describe your typical music-listening habits.", "answers": [] },
+                { "id": "mu4_3", "question": "Have you ever been to a concert or live performance? Describe what it was like and how you felt there.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "mu_5", "group_title": "음악 취향 & 콘서트", "level": 5,
+              "questions": [
+                { "id": "mu5_1", "question": "Tell me about the most memorable concert or live performance you have ever attended. What made it so unforgettable?", "answers": [] },
+                { "id": "mu5_2", "question": "Has music ever helped you through a difficult time or made a special moment even better? Tell me about that experience.", "answers": [] },
+                { "id": "mu5_3", "question": "How has your taste in music changed since you were young? What caused these changes?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "mu_6", "group_title": "음악 취향 & 콘서트", "level": 6,
+              "questions": [
+                { "id": "mu6_1", "question": "How has the music industry changed due to digital streaming services? What are the effects on artists and music culture?", "answers": [] },
+                { "id": "mu6_2", "question": "Compare live concert experiences today with those of the past. How has technology changed the relationship between performers and audiences?", "answers": [] },
+                { "id": "mu6_3", "question": "How has the global spread of K-pop changed the way music is produced, marketed, and consumed? What does this mean for Korean cultural identity?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "park",
+          "name": "공원",
+          "topic_label": "공원가기 / 조깅 / 걷기",
+          "topic_icon": "🌿",
+          "groups": [
+            {
+              "group_id": "pk_4", "group_title": "공원 & 야외활동", "level": 4,
+              "questions": [
+                { "id": "pk4_1", "question": "Tell me about a park you visit often. Where is it, what does it look like, and what facilities does it have?", "answers": [] },
+                { "id": "pk4_2", "question": "What do you usually do when you go to the park? Who do you go with and how often do you visit?", "answers": [] },
+                { "id": "pk4_3", "question": "Do you enjoy jogging or walking outdoors? Describe your typical outdoor exercise routine.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "pk_5", "group_title": "공원 & 야외활동", "level": 5,
+              "questions": [
+                { "id": "pk5_1", "question": "Tell me about the most memorable experience you have had at a park or while doing outdoor exercise. What happened?", "answers": [] },
+                { "id": "pk5_2", "question": "Have you ever had an unexpected situation while jogging or walking outdoors? Tell me about what happened and how you dealt with it.", "answers": [] },
+                { "id": "pk5_3", "question": "How have parks and outdoor spaces in your area changed over the years? How have these changes affected people's lives?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "pk_6", "group_title": "공원 & 야외활동", "level": 6,
+              "questions": [
+                { "id": "pk6_1", "question": "Why do you think green spaces and parks are important for modern urban life? How do they affect mental and physical well-being?", "answers": [] },
+                { "id": "pk6_2", "question": "How has rapid urbanization affected access to nature and outdoor activities in Korean cities? What should be done to improve this?", "answers": [] },
+                { "id": "pk6_3", "question": "Compare the culture around outdoor activities and nature in Korea with that of other countries. What can Korea learn or adopt?", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "name": "여행",
+          "topic_label": "국내여행 / 해변가기 / 집에서 보내는 휴가",
+          "topic_icon": "✈️",
+          "groups": [
+            {
+              "group_id": "tr_4", "group_title": "국내여행 & 휴가", "level": 4,
+              "questions": [
+                { "id": "tr4_1", "question": "Tell me about a domestic trip you have taken. Where did you go, who did you go with, and what did you do there?", "answers": [] },
+                { "id": "tr4_2", "question": "What do you like to do on vacation? Do you prefer traveling or staying home? Describe your ideal vacation.", "answers": [] },
+                { "id": "tr4_3", "question": "What places in Korea would you recommend to a visitor and why? Describe one place in detail.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "tr_5", "group_title": "국내여행 & 휴가", "level": 5,
+              "questions": [
+                { "id": "tr5_1", "question": "Tell me about the most memorable trip you have ever taken. What made it special and what happened that you still remember?", "answers": [] },
+                { "id": "tr5_2", "question": "Has anything unexpected or problematic happened during one of your trips? Tell me about that experience and how you handled it.", "answers": [] },
+                { "id": "tr5_3", "question": "How has the way you travel or spend your vacations changed compared to a few years ago? What caused these changes?", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "tr_6", "group_title": "국내여행 & 휴가", "level": 6,
+              "questions": [
+                { "id": "tr6_1", "question": "How has the rise of online travel platforms and social media changed the way Koreans plan and experience travel?", "answers": [] },
+                { "id": "tr6_2", "question": "What are the environmental and cultural impacts of mass tourism on popular Korean destinations? What responsibilities do travelers have?", "answers": [] },
+                { "id": "tr6_3", "question": "Compare the travel culture of Koreans today with previous generations. What values and priorities have shifted, and why?", "answers": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roleplay",
+      "name": "롤플레이",
+      "icon": "🎭",
+      "subcategories": [
+        {
+          "id": "rp_daily",
+          "name": "일상 상황",
+          "groups": [
+            {
+              "group_id": "rp_rest_4", "group_title": "레스토랑 예약", "level": 4,
+              "questions": [
+                { "id": "rp_r4_1", "question": "[상황 설정] You want to make a reservation at a restaurant for a special occasion. Call the restaurant and ask 3 to 4 questions about availability, menu, and seating.", "answers": [] },
+                { "id": "rp_r4_2", "question": "[문제 발생] When you arrive at the restaurant, your reservation cannot be found. Explain the situation to the staff and ask them to resolve it.", "answers": [] },
+                { "id": "rp_r4_3", "question": "[대안 제시] The restaurant says they are fully booked and cannot seat you immediately. Suggest 2 or 3 alternative solutions to the staff.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_rest_5", "group_title": "레스토랑 문제", "level": 5,
+              "questions": [
+                { "id": "rp_r5_1", "question": "[상황 설정] A friend recommended a new restaurant to you. Call to make a reservation and ask 3 to 4 detailed questions about the restaurant.", "answers": [] },
+                { "id": "rp_r5_2", "question": "[문제 발생] The food or service at the restaurant is seriously unsatisfactory. Explain the specific problems to the manager and demand a resolution.", "answers": [] },
+                { "id": "rp_r5_3", "question": "[대안 제시] The manager apologizes but says there is little they can do tonight. Propose 2 or 3 specific alternatives you would find acceptable.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_rest_6", "group_title": "레스토랑 불만 처리", "level": 6,
+              "questions": [
+                { "id": "rp_r6_1", "question": "[상황 설정] You are organizing a company dinner at a high-end restaurant. Call to confirm arrangements and ask 3 to 4 important questions about private dining, menu customization, and billing.", "answers": [] },
+                { "id": "rp_r6_2", "question": "[문제 발생] On the day of the dinner, several things have gone wrong — wrong setup, missing items, staff confusion. Explain all the issues firmly but professionally to the manager.", "answers": [] },
+                { "id": "rp_r6_3", "question": "[대안 제시] The restaurant offers only a small discount as compensation. Explain why this is insufficient and negotiate a better solution with 2 or 3 specific requests.", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rp_shopping",
+          "name": "쇼핑 & 구매",
+          "groups": [
+            {
+              "group_id": "rp_shop_4", "group_title": "쇼핑 & 교환", "level": 4,
+              "questions": [
+                { "id": "rp_s4_1", "question": "[상황 설정] You want to buy a birthday gift for a friend. Visit a store and ask the clerk 3 to 4 questions to find the right gift.", "answers": [] },
+                { "id": "rp_s4_2", "question": "[문제 발생] The gift you bought is damaged or the wrong item. Go back to the store and explain the problem clearly, asking for a refund or exchange.", "answers": [] },
+                { "id": "rp_s4_3", "question": "[대안 제시] The store has a strict no-return policy for the item. Explain why you believe an exception should be made and propose 2 or 3 solutions.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_shop_5", "group_title": "온라인 쇼핑 문제", "level": 5,
+              "questions": [
+                { "id": "rp_o5_1", "question": "[상황 설정] You are considering buying an expensive electronic item online. Call customer service and ask 3 to 4 questions about specifications, warranty, and returns.", "answers": [] },
+                { "id": "rp_o5_2", "question": "[문제 발생] The product arrived but it is defective. Call customer service, explain the problem in detail, and demand an immediate solution.", "answers": [] },
+                { "id": "rp_o5_3", "question": "[대안 제시] The company says it will take two weeks to send a replacement. Explain why this is unacceptable and suggest 2 or 3 faster alternatives.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_shop_6", "group_title": "계약 & 서비스 협상", "level": 6,
+              "questions": [
+                { "id": "rp_c6_1", "question": "[상황 설정] You are negotiating a service contract with a company. Ask 3 to 4 detailed questions about pricing, contract terms, cancellation policy, and additional fees.", "answers": [] },
+                { "id": "rp_c6_2", "question": "[문제 발생] After signing the contract, you discover hidden fees and terms that were not disclosed. Call the company and explain exactly why these terms are unacceptable.", "answers": [] },
+                { "id": "rp_c6_3", "question": "[대안 제시] The company refuses to change the contract. Present 2 or 3 specific revised terms you need, and explain the consequences if they cannot accommodate your requests.", "answers": [] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rp_facility",
+          "name": "시설 & 서비스",
+          "groups": [
+            {
+              "group_id": "rp_gym_4", "group_title": "헬스장 & 수업 등록", "level": 4,
+              "questions": [
+                { "id": "rp_g4_1", "question": "[상황 설정] You want to join a gym. Call the gym and ask 3 to 4 questions about membership fees, facilities, operating hours, and available classes.", "answers": [] },
+                { "id": "rp_g4_2", "question": "[문제 발생] After signing up, you find the gym does not offer the class you were told about. Call and explain the situation, asking them to fix the problem.", "answers": [] },
+                { "id": "rp_g4_3", "question": "[대안 제시] The gym cannot add the class you want. Ask for 2 or 3 alternative solutions such as a refund, membership adjustment, or substitute class.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_hotel_5", "group_title": "호텔 문제", "level": 5,
+              "questions": [
+                { "id": "rp_h5_1", "question": "[상황 설정] You have just checked into a hotel for an important trip. Ask the front desk 3 to 4 questions about room amenities, services, nearby attractions, and check-out procedures.", "answers": [] },
+                { "id": "rp_h5_2", "question": "[문제 발생] Your hotel room is seriously problematic — it is dirty, noisy, or has broken equipment. Call the front desk and describe each issue, demanding an immediate resolution.", "answers": [] },
+                { "id": "rp_h5_3", "question": "[대안 제시] The hotel says all other rooms are fully booked. Propose 2 or 3 specific ways they can compensate you or improve your stay tonight.", "answers": [] }
+              ]
+            },
+            {
+              "group_id": "rp_flight_6", "group_title": "항공 & 여행 트러블", "level": 6,
+              "questions": [
+                { "id": "rp_f6_1", "question": "[상황 설정] You are at the airport to catch a flight for a crucial business trip. Ask the airline check-in agent 3 to 4 important questions about your flight, upgrades, and baggage policy.", "answers": [] },
+                { "id": "rp_f6_2", "question": "[문제 발생] Your flight has been cancelled and the airline is offering a replacement flight that arrives much too late. Explain exactly why this is unacceptable and demand a proper solution.", "answers": [] },
+                { "id": "rp_f6_3", "question": "[대안 제시] The airline agent says those are the only options available. Escalate the issue, propose 2 or 3 specific alternatives — such as rebooking on a partner airline or full refund with compensation — and explain your reasoning.", "answers": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

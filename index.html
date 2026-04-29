@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="OPIc">
+  <title>OPIc Practice</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ── Header ── -->
+  <header class="app-header" id="app-header">
+    <button class="btn-back" id="btn-back" style="display:none">&#8592;</button>
+    <span class="header-title" id="header-title">OPIc Practice</span>
+    <div class="header-actions">
+      <button class="btn-icon" id="btn-add-q" title="질문 추가" style="display:none">＋</button>
+      <button class="btn-icon" id="btn-edit-q" title="그룹 수정" style="display:none">✎</button>
+    </div>
+  </header>
+
+  <!-- ── Home Screen ── -->
+  <main class="screen active" id="screen-home">
+    <div class="home-hero">
+      <div class="app-icon">📚</div>
+      <h1>OPIc Practice</h1>
+      <p>IM3 ~ IH 목표</p>
+    </div>
+
+    <button class="btn-mock-home" id="btn-start-mock">🎓 모의시험 시작</button>
+
+    <div class="section-label">카테고리 학습</div>
+    <div class="category-grid" id="category-grid"></div>
+  </main>
+
+  <!-- ── Topic Screen (메인서베이 전용) ── -->
+  <main class="screen" id="screen-topic">
+    <div class="topic-grid" id="topic-grid"></div>
+  </main>
+
+  <!-- ── Question List Screen ── -->
+  <main class="screen" id="screen-list">
+    <div id="question-list"></div>
+  </main>
+
+  <!-- ── Question Detail Screen (단일 질문) ── -->
+  <main class="screen" id="screen-detail">
+    <div class="detail-body" id="detail-body"></div>
+    <nav class="nav-q">
+      <button class="btn-nav" id="btn-prev-q">&#8592; 이전</button>
+      <button class="btn-nav" id="btn-next-q">다음 &#8594;</button>
+    </nav>
+  </main>
+
+  <!-- ── Edit / Add Screen ── -->
+  <main class="screen" id="screen-edit">
+    <div id="edit-form"></div>
+  </main>
+
+  <!-- ── Mock Setup Screen ── -->
+  <main class="screen" id="screen-mock-setup">
+    <div class="mock-setup-body">
+      <div class="mock-setup-title">🎓 모의시험 설정</div>
+      <p class="mock-setup-desc">실제 OPIc 시험 순서와 동일하게 15문제가 출제됩니다.</p>
+
+      <div class="setup-section">
+        <div class="setup-label">메인 서베이 주제 선택</div>
+        <div class="topic-check-list" id="topic-check-list"></div>
+      </div>
+
+      <div class="setup-section">
+        <div class="setup-label">출제 레벨</div>
+        <div class="mock-level-radio" id="mock-level-radio">
+          <label class="mock-level-item"><input type="radio" name="mock-level" value="4" checked><span class="level-radio-btn lv4">Level 4</span></label>
+          <label class="mock-level-item"><input type="radio" name="mock-level" value="5"><span class="level-radio-btn lv5">Level 5</span></label>
+          <label class="mock-level-item"><input type="radio" name="mock-level" value="6"><span class="level-radio-btn lv6">Level 6</span></label>
+        </div>
+      </div>
+
+      <div class="mock-exam-info" id="mock-exam-info">총 15문제</div>
+      <button class="btn-mock-start" id="btn-mock-go">시험 시작 →</button>
+    </div>
+  </main>
+
+  <!-- ── Mock Test Screen ── -->
+  <main class="screen" id="screen-mock">
+    <div class="mock-progress-bar">
+      <div class="mock-progress-fill" id="mock-progress-fill"></div>
+    </div>
+    <div class="mock-body" id="mock-body">
+      <div class="mock-phase-label" id="mock-phase-label"></div>
+      <div class="mock-q-counter" id="mock-q-counter"></div>
+      <div class="mock-question-card" id="mock-question-card"></div>
+      <div class="mock-tts-row">
+        <button class="btn-mock-tts" id="btn-mock-tts">🔊 질문 듣기</button>
+        <div class="mock-rate-wrap">
+          <input type="range" id="mock-tts-rate" min="0.5" max="1.5" step="0.1" value="0.9">
+          <span id="mock-tts-rate-val">0.9</span>
+        </div>
+      </div>
+      <div class="mock-answer-area">
+        <div class="mock-answer-label">My Answer</div>
+        <textarea class="mock-textarea" id="mock-textarea" placeholder="답변을 입력하거나 🎤 버튼으로 말하기..."></textarea>
+        <div class="mock-input-actions">
+          <button class="btn-mic" id="btn-mic-mock" title="음성 입력">🎤</button>
+          <span class="mic-status" id="mic-status-mock"></span>
+        </div>
+      </div>
+    </div>
+    <div class="mock-nav">
+      <button class="btn-mock-skip" id="btn-mock-skip">건너뛰기</button>
+      <button class="btn-mock-next" id="btn-mock-next">다음 →</button>
+    </div>
+  </main>
+
+  <!-- ── Mock Result Screen ── -->
+  <main class="screen" id="screen-mock-result">
+    <div class="result-header">
+      <div class="result-icon">🏆</div>
+      <div class="result-title">모의시험 완료!</div>
+      <div class="result-sub" id="result-sub"></div>
+    </div>
+    <div class="result-list" id="result-list"></div>
+    <div class="result-actions">
+      <button class="btn-result-home" id="btn-result-home">홈으로</button>
+      <button class="btn-result-retry" id="btn-result-retry">다시 시험</button>
+    </div>
+  </main>
+
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
